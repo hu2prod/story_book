@@ -1,0 +1,27 @@
+.tab_dnd {
+  /*overflow: hidden;*/
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  font-size : 13px;
+}
+
+.tab_dnd .button {
+  background-color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 2px 16px;
+  transition: 0.3s;
+}
+
+.tab_dnd .button.hover {
+  background-color: #ddd;
+}
+
+.tab_dnd .button.active {
+  background-color: #ccc;
+}
+
+.tab_dnd .button.drag_start {
+  background-color: #fcf;
+}

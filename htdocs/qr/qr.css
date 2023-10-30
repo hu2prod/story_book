@@ -1,0 +1,15 @@
+.qrTrue, .qrFalse {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    margin: 0;
+}
+
+.qrTrue {
+    background-color: black;
+}
+
+.qrCode {
+    line-height: 0px;
+    font-size: 0px;
+}

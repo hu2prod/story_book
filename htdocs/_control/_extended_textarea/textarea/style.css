@@ -1,0 +1,26 @@
+.CodeMirror {
+  border: 1px solid #eee;
+}
+.CodeMirror-resize .CodeMirror {
+  height: auto !important;
+}
+.CodeMirror pre.CodeMirror-placeholder {
+  color: #999;
+}
+.CodeMirror-fullscreen {
+    display : block;
+    position: absolute;
+    top     : 0;
+    left    : 0;
+    width   : 100%;
+    z-index : 1;
+}
+
+.CodeMirror-overwrite div.CodeMirror-cursor {
+  width: auto;
+  background-color: black;
+  color: white;
+  border-left: 0;
+  line-height: normal;
+  white-space: pre;
+}

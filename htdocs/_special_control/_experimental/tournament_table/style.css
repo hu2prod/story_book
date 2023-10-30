@@ -1,0 +1,43 @@
+.tournament_table {
+  border: 1px solid #a2a9b1;
+  background-color: #f8f9fa;
+  border-collapse:collapse;
+  font-family : monospace;
+}
+.tournament_table_bot_header {
+  background-color: #eaecf0;
+}
+.tournament_table tr {
+  border: 1px solid #a2a9b1;
+  padding: 0.2em 0.4em;
+}
+.tournament_table td {
+  border: 1px solid #a2a9b1;
+  padding: 0.2em 0.4em;
+}
+
+
+.tournament_table_result {
+  text-align : center;
+}
+.tournament_table_same_bot {
+  
+}
+.tournament_table_score {
+  text-align : right;
+}
+
+
+.tournament_table_win {
+  background-color: #afa;
+}
+.tournament_table_lose {
+  background-color: #faa;
+}
+
+.tournament_table_big_win {
+  background-color: #0f0;
+}
+.tournament_table_big_lose {
+  background-color: #f00;
+}

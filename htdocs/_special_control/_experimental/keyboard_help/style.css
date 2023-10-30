@@ -1,0 +1,126 @@
+.__keyboard {
+  width       : 1005px;
+  background  : #eee;
+  margin      : 0;
+  padding     : 0;
+  list-style  : none;
+}
+.__keyboard li {
+  float       : left;
+  margin      : 0 5px 5px 0;
+  width       : 40px;
+  height      : 40px;
+  line-height : 40px;
+  text-align  : center;
+  background  : #fff;
+  border      : 1px solid #f9f9f9;
+  -moz-border-radius    : 5px;
+  -webkit-border-radius   : 5px;
+  box-sizing  : border-box; /* from bootstrap */
+}
+.__keyboard .capslock, .tab, .left-shift, .left-ctrl {
+  clear   : left;
+}
+.__keyboard .tab, .__keyboard .backspace {
+  width   : 70px;
+}
+.__keyboard .capslock {
+  width   : 80px;
+}
+.__keyboard .enter {
+  width   : 75px;
+}
+.__keyboard .left-shift {
+  width   : 95px;
+}
+.__keyboard .right-shift {
+  width   : 105px;
+}
+.__keyboard .left-ctrl {
+  width   : 60px;
+}
+.__keyboard .right-ctrl {
+  width   : 60px;
+}
+.__keyboard .space {
+  width   : 300px;
+}
+/*.__keyboard .on {
+  display : none;
+}*/
+.__keyboard li:hover {
+  border-color: #e5e5e5;
+  cursor  : pointer;
+}
+.__keyboard .pad {
+  display : block;
+  width   : 10px !important;
+  border  : none !important;
+  opacity : 0;
+}
+.__keyboard .letter_pad {
+  border  : none !important;
+  opacity : 0;
+}
+.__keyboard .num_key {
+  /* height:90px !important; */
+}
+.__keyboard .letter2 {
+  width   : 85px !important; 
+}
+.__keyboard .selected {
+  background : #FAE6FC !important; 
+}
+
+
+.keyboard {
+  position    : absolute;
+  left        : 50%;
+  top         : 200px;
+  margin-left : -502px; /* Half of the 1005px */
+  background  : #eee;
+  padding     : 30px;
+  z-index     : 10;
+  font-family : "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size   : 14px;
+}
+.keyboard_mod {
+  padding-bottom : 50px;
+  height      : 275px;
+}
+
+/* from bootstrap tooltip */
+.keyboard_tooltip {
+  margin-top: -3px;
+  padding: 5px 0;
+  /*position: absolute;*/
+  z-index: 1030;
+  display: block;
+  visibility: visible;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.keyboard_tooltip-inner {
+  max-width: 200px;
+  padding: 3px 8px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  background-color: #000;
+  border-radius: 4px;
+}
+
+.keyboard_tooltip-arrow {
+  bottom: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px 5px 0;
+  border-top-color: #000;
+  /*position: absolute;*/
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+}
+
